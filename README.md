@@ -16,7 +16,7 @@ The quiz is built using HTML, CSS and JavaScript. The quiz uses Javascript to in
 
 ## How it works
 
-The quiz uses a simple algorithm to determine the recommended programming language based on the answers provided. The algorithm takes into account factors such as your interests and career goals, as well as your experience with programming.
+The quiz uses a simple algorithm to determine the recommended programming language based on the answers provided. The algorithm takes into account factors such as your interests, habits, likes, and dislikes.
 
 ## Contribution
 
