@@ -25,14 +25,12 @@ function langType() {
 
   const resultDiv = document.getElementById("result");
   resultDiv.textContent = "We recommend learning " + langType + " as your first programming language.";
-}
 
-const tryAgainBtn = document.getElementById("tryAgain");
-tryAgainBtn.addEventListener("click", function() {
-  const radioButtons = document.querySelectorAll('input[type="radio"]');
-  for (let i = 0; i < radioButtons.length; i++) {
-    radioButtons[i].checked = false;
-  }
-  var resultDiv = document.getElementById("result");
-  resultDiv.textContent = "";
-});
+
+  document.getElementById("tryAgain").addEventListener("click", function(){
+  let form = document.querySelector("form");
+  form.reset();
+
+  document.getElementById("result").innerHTML = "";
+  });
+}
