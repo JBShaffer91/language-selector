@@ -1,7 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   text-shadow: 1px 1px 1px #1b1b1b;
-  background-color: #f1f1f1;
+  background-color: #f3f2f0;
   text-align: center;
 }
 
@@ -88,7 +88,7 @@ p {
 }
 
 .btn-primary {
-  background-color: #4CAF50; /* Green */
+  background-color: #36E7F4;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -99,7 +99,7 @@ p {
 }
 
 .btn-secondary {
-  background-color: #f44336; /* Red */
+  background-color: #f44336;
   color: white;
   padding: 12px 20px;
   border: none;
